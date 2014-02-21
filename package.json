@@ -2,6 +2,7 @@
   "name": "pancanga",
   "version": "0.0.0",
   "main": "lib/pancanga.js",
+  "bin": "cli.js",
   "description": "A CLI app that behaves exactly like the original Perl lib, but uses the new kollavarsham node module from npm",
   "homepage": "https://github.com/kollavarsham/pancanga-nodejs",
   "bugs": "https://github.com/kollavarsham/pancanga-nodejs/issues",
@@ -22,7 +23,10 @@
   "files": [
     "lib"
   ],
-  "keywords": [],
+  "keywords": [
+    "pancanga",
+    "hindu calendar"
+  ],
   "devDependencies": {
     "grunt-contrib-jshint": "~0.7.0",
     "grunt-contrib-nodeunit": "~0.2.0",
@@ -36,6 +40,9 @@
   },
   "dependencies": {
     "kollavarsham": "0.0.3",
-    "inquirer": "~0.4.0"
+    "inquirer": "~0.4.0",
+    "chalk": "~0.4.0",
+    "capitalize": "~0.5.0",
+    "node.extend": "~1.0.9"
   }
 }
