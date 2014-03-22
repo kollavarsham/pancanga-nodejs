@@ -1,49 +1,53 @@
 {
-  "name": "pancanga",
-  "version": "0.0.0",
-  "main": "lib/pancanga.js",
-  "bin": "cli.js",
-  "description": "A CLI app that behaves exactly like the original Perl lib, but uses the new kollavarsham node module from npm",
-  "homepage": "https://github.com/kollavarsham/pancanga-nodejs",
-  "bugs": "https://github.com/kollavarsham/pancanga-nodejs/issues",
-  "author": {
-    "name": "The Kollavarsham Team",
-    "email": "info@kollavarsham.org",
-    "url": "kollavarsham.org"
+  "name"            : "pancanga",
+  "version"         : "0.0.0",
+  "bin"             : "lib/cli.js",
+  "description"     : "A CLI app that behaves exactly like the original Perl lib, but uses the new kollavarsham node module from npm",
+  "homepage"        : "https://github.com/kollavarsham/pancanga-nodejs",
+  "bugs"            : "https://github.com/kollavarsham/pancanga-nodejs/issues",
+  "author"          : {
+    "name"  : "The Kollavarsham Team",
+    "email" : "info@kollavarsham.org",
+    "url"   : "kollavarsham.org"
   },
-  "repository": {
-    "type": "git",
-    "url": "user/repo"
-  },
-  "licenses": [
+  "contributors"    : [
     {
-      "type": "MIT"
+      "name"  : "Floyd Pink",
+      "email" : "imbleedingme@googlemail.com",
+      "url"   : "https://github.com/floydpink"
     }
   ],
-  "files": [
+  "repository"      : {
+    "type" : "git",
+    "url"  : "kollavarsham/pancanga-nodejs"
+  },
+  "licenses"        : [
+    {
+      "type" : "MIT",
+      "url"  : "https://raw.githubusercontent.com/kollavarsham/pancanga-nodejs/master/LICENSE"
+    }
+  ],
+  "files"           : [
     "lib"
   ],
-  "keywords": [
+  "keywords"        : [
     "pancanga",
     "hindu calendar"
   ],
-  "devDependencies": {
-    "grunt-contrib-jshint": "~0.7.0",
-    "grunt-contrib-nodeunit": "~0.2.0",
-    "grunt-contrib-watch": "~0.5.0",
-    "load-grunt-tasks": "~0.2.0",
-    "time-grunt": "~0.2.0",
-    "jshint-stylish": "~0.1.3"
+  "devDependencies" : {
+    "grunt-contrib-jshint"   : "~0.7.0",
+    "grunt-contrib-nodeunit" : "~0.2.0",
+    "grunt-contrib-watch"    : "~0.5.0",
+    "load-grunt-tasks"       : "~0.2.0",
+    "time-grunt"             : "~0.2.0",
+    "jshint-stylish"         : "~0.1.3"
   },
-  "scripts": {
-    "test": "grunt"
-  },
-  "dependencies": {
-    "kollavarsham": "0.0.11",
-    "inquirer": "~0.4.0",
-    "chalk": "~0.4.0",
-    "capitalize": "~0.5.0",
-    "node.extend": "~1.0.9",
-    "sprintf-js": "0.0.7"
+  "dependencies"    : {
+    "kollavarsham" : "0.0.11",
+    "inquirer"     : "~0.4.0",
+    "chalk"        : "~0.4.0",
+    "capitalize"   : "~0.5.0",
+    "node.extend"  : "~1.0.9",
+    "sprintf-js"   : "0.0.7"
   }
 }
