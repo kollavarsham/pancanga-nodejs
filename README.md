@@ -1,5 +1,7 @@
 # pancanga
 
+[![npm](https://img.shields.io/npm/v/pancanga.svg)](https://www.npmjs.com/package/pancanga)
+
 A CLI app that behaves exactly like the original Perl lib ([available here](http://www.cc.kyoto-su.ac.jp/~yanom/sanskrit/pancanga/)), but uses the new `kollavarsham` node/JS library from npm.
 
 Install the module with: `npm install -g pancanga` and run it using the `pancanga` command
