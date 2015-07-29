@@ -1,6 +1,6 @@
 {
   "name": "pancanga",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "bin": "lib/cli.js",
   "description": "A CLI app that behaves exactly like the original Perl lib, but uses the new kollavarsham node module from npm",
   "homepage": "https://github.com/kollavarsham/pancanga-nodejs",
