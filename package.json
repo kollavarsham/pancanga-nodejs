@@ -31,7 +31,7 @@
   ],
   "devDependencies": {
     "grunt": "^0.4.5",
-    "grunt-contrib-jshint": "^0.11.2",
+    "grunt-contrib-jshint": "^0.11.3",
     "grunt-contrib-watch": "^0.6.1",
     "jshint-stylish": "^2.0.1",
     "load-grunt-tasks": "^3.2.0",
@@ -39,9 +39,9 @@
   },
   "dependencies": {
     "capitalize": "^1.0.0",
-    "chalk": "^1.1.0",
-    "inquirer": "^0.9.0",
-    "kollavarsham": "0.1.0",
+    "chalk": "^1.1.1",
+    "inquirer": "^0.10.0",
+    "kollavarsham": "0.6.2",
     "node.extend": "^1.1.5",
     "sprintf-js": "1.0.3"
   }
